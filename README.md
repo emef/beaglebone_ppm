@@ -1,5 +1,5 @@
-Library and PRU firmware to read/write PPM protocol on BeagleBone. PPM
-is commonly used in sending input channel data between RC
+Library and PRU firmware to read/write PPM protocol on BeagleBone
+black. PPM is commonly used in sending input channel data between RC
 transmitters, receivers, servos, and flight controllers.
 
 Example usage:

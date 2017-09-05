@@ -62,7 +62,7 @@ volatile register uint32_t __R31;
 #define MAX_CHANNEL_WIDTH_CYCLES  (CYCLES_PER_US * MAX_CHANNEL_WIDTH_US)
 #define MAX_PULSE_WIDTH_US        PULSE_WIDTH_US + SLOP_US
 #define MAX_PULSE_WIDTH_CYCLES    (CYCLES_PER_US * MAX_PULSE_WIDTH_US)
-#define CHANNELS_SIZE 12 * sizeof(uint16_t)
+#define CHANNELS_SIZE             12 * sizeof(uint16_t)
 
 #define CONSTRAIN(x, low, high)  (((x) > (high)) ? (high) : (((x) < (low)) ? (low) : (x)))
 
